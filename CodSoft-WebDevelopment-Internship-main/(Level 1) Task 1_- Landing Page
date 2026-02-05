@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ojaswi Makode - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Ojaswi Makode</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Web Developer & Designer</h2>
+        <p>Creating beautiful, functional websites with passion and precision</p>
+        <a href="#contact" class="cta-button">Hire Me</a>
+        <a href="#projects" class="secondary-button">View Projects</a>
+      </div>
+      <div class="profile-image">
+        <div class="image-placeholder">
+          <span>OJ</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>Hello! I'm Ojaswi Makode, a passionate web developer with expertise in creating modern, responsive websites and web applications. I love turning ideas into reality through code.</p>
+        <p>Currently pursuing my education while working on freelance projects. I specialize in front-end development with experience in React, JavaScript, and modern CSS frameworks.</p>
+        <div class="education">
+          <h3>Education</h3>
+          <p>Bachelor's in Computer Science</p>
+          <p>Expected Graduation: 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>E-commerce Website</h3>
+          <p>Full-featured online store with shopping cart and payment integration</p>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+        </div>
+        <div class="project-card">
+          <h3>Task Management App</h3>
+          <p>Collaborative task management tool with real-time updates</p>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Firebase</span>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio website with modern design</p>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> ojaswi@example.com</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Location:</strong> Maharashtra, India</p>
+          <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 Ojaswi Makode. All rights reserved.</p>
+        <p>Web Developer Portfolio</p>
+      </div>
+    </footer>
+  </body>
+</html>
