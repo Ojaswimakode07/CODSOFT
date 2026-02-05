@@ -19,8 +19,6 @@ A personal portfolio website created using **HTML and CSS** to showcase personal
 - Contact section with email and phone number  
 - Footer with copyright information  
 
-🔗 **Demo:** *(Add your demo link here)*
-
 ---
 
 ## 📌 Task 2: Landing Page
@@ -34,8 +32,6 @@ A responsive and visually attractive **landing page** developed using **HTML and
 - Proper padding, margins, and alignment  
 - Attractive color palette and box layouts  
 - Beginner-friendly responsive design  
-
-🔗 **Demo:** *(Add your demo link here)*
 
 ---
 
